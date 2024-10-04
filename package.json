@@ -1,0 +1,29 @@
+{
+    "name": "haybox-webserial-rc",
+    "description": "Implementation of HayBox firmware config protocol using Web Serial for the needs of Rectangle Corner's fork.",
+    "version": "0.1.2",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "prepublish": "tsc",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RectangleCorner/haybox-webserial-rc"
+    },
+    "author": "Jonathan Haylett, Rectangle Corner",
+    "license": "LGPL-3.0-only",
+    "private": false,
+    "dependencies": {
+        "@bufbuild/protobuf": "^1.10.0",
+        "@types/w3c-web-serial": "^1.0.6",
+        "buffer": "^6.0.3"
+    },
+    "devDependencies": {
+        "@bufbuild/buf": "^1.34.0",
+        "@bufbuild/protoc-gen-es": "^1.10.0",
+        "protobufjs-cli": "^1.1.2",
+        "typescript": "^5.4.3"
+    }
+}
